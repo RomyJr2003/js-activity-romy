@@ -47,7 +47,7 @@ function editTodo(index) {
 function deleteTodo(index) {
     if (confirm('Are you sure you want to delete this todo?')) {
         todos.splice(index,1);
-        renderTools();
+        renderTodos();
     }
 }
 
